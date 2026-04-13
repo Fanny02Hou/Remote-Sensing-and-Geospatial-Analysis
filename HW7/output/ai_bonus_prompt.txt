@@ -1,0 +1,32 @@
+
+You are acting as a Transportation Advisor for the Hualien County Disaster Prevention Command Center.
+
+Below are the road network analysis results from this study:
+
+[Top 5 Bottleneck Nodes]
+#1: Node 649286213, centrality = 0.140247
+#2: Node 649286214, centrality = 0.139444
+#3: Node 1061487893, centrality = 0.125307
+#4: Node 929963021, centrality = 0.123480
+#5: Node 1074772659, centrality = 0.115733
+
+[Accessibility Impact Table]
+facility_id facility_name facility_risk_level  capacity  pre_5min_km2  post_5min_km2  shrinkage_5min  pre_10min_km2  post_10min_km2  shrinkage_10min
+         F1          中正國小                 中風險       187     24.737135      24.737135             0.0      60.430901       60.430901              0.0
+         F2  中原國小文中三國中預定地                 高風險        85     25.678171      25.678171             0.0      60.013269       60.013269              0.0
+         F3          忠孝國小                 中風險        47     22.393526      22.393526             0.0      62.024956       62.024956              0.0
+         F4      主權社區活動中心                 中風險        72     24.333173      24.333173             0.0      60.740283       60.740283              0.0
+         F5          國風國中                 中風險       800     22.329930      22.329930             0.0      60.999962       60.999962              0.0
+
+[Isolated / Highly Impacted Facilities]
+None. No facility met the current isolation threshold.
+
+Based on the results above, please prepare a professional disaster-response strategy briefing. Your response should include at least the following:
+
+1. Which road nodes or surrounding areas should be prioritized for clearance or inspection, and why
+2. Which shelters or facilities should receive priority attention
+3. What alternative rescue strategies could be adopted if some areas become difficult to access (for example: rubber boats, alternative routes, temporary staging points, etc.)
+4. Recommendations for resource allocation priority
+5. A short overall conclusion that decision-makers can quickly understand
+
+Please write in clear, well-structured, professional English that can be directly included in a homework report.
