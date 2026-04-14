@@ -1,0 +1,229 @@
+You are the Chief of Operations at the Hualien County Disaster
+Prevention Command Center, writing a brief for the county magistrate. ARIA v5.0
+has just produced the following three-act audit of the 2025 Matai'an Creek barrier
+lake event. Write a 250-word operational brief covering:
+
+1. Three-act timeline — what the imagery proves
+2. The pre-breach warning window (Jul 21 to Sep 23, 64 days) — what ARIA v5.0
+   could have caught if it had been operational
+3. Coverage gap — why did the W3/W7 Hualien City focus miss Guangfu?
+4. Next-24-hour orders: priority clearance, shelter resupply, UAV tasking
+5. One concrete suggestion to extend ARIA before the next barrier-lake event
+
+IMPACT TABLE:
+| asset | type | location | W4_terrain_risk | W7_centrality_rank | lake_hit | landslide_hit | debris_hit | notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| shelter | W3 shelter |  | low |  | N | Y | N | within 100 m of landslide |
+| shelter | W3 shelter |  | high |  | N | Y | N | within 100 m of landslide |
+| shelter | W3 shelter |  | low |  | N | Y | N | within 100 m of landslide |
+| shelter | W3 shelter |  | high |  | N | Y | N | within 100 m of landslide |
+| shelter | W3 shelter |  | high |  | N | Y | N | within 100 m of landslide |
+| shelter | W3 shelter |  | high |  | N | Y | N | within 100 m of landslide |
+| shelter | W3 shelter |  | high |  | N | Y | N | within 100 m of landslide |
+| shelter | W3 shelter |  | high |  | N | Y | N | within 100 m of landslide |
+| shelter | W3 shelter |  | high |  | N | Y | N | within 100 m of landslide |
+| shelter | W3 shelter |  | high |  | N | Y | N | within 100 m of landslide |
+| shelter | W3 shelter |  | high |  | N | Y | N | within 100 m of landslide |
+| shelter | W3 shelter |  | low |  | N | Y | N | within 100 m of landslide |
+| shelter | W3 shelter |  | high |  | N | Y | N | within 100 m of landslide |
+| Guangfu_Station | W8 Guangfu (critical_infra) | 光復火車站 |  |  | N | Y | N | within 100 m of landslide; priority=2 |
+| Guangfu_Elementary | W8 Guangfu (shelter) | 光復國小 |  |  | N | Y | N | within 100 m of landslide; priority=1 |
+| Guangfu_Township_Office | W8 Guangfu (shelter) | 光復鄉公所 |  |  | N | Y | N | within 100 m of landslide; priority=1 |
+| Foxu_Debris_Zone | W8 Guangfu (critical_infra) | 佛祖街沉積區中心 |  |  | N | Y | N | within 100 m of landslide; priority=3 |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | low |  | N | N | N |  |
+| shelter | W3 shelter |  | low |  | N | N | N |  |
+| shelter | W3 shelter |  | low |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | low |  | N | N | N |  |
+| shelter | W3 shelter |  | low |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | low |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | low |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | low |  | N | N | N |  |
+| shelter | W3 shelter |  | low |  | N | N | N |  |
+| shelter | W3 shelter |  | low |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | low |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | low |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | low |  | N | N | N |  |
+| shelter | W3 shelter |  | low |  | N | N | N |  |
+| shelter | W3 shelter |  | low |  | N | N | N |  |
+| shelter | W3 shelter |  | low |  | N | N | N |  |
+| shelter | W3 shelter |  | low |  | N | N | N |  |
+| shelter | W3 shelter |  | low |  | N | N | N |  |
+| shelter | W3 shelter |  | low |  | N | N | N |  |
+| shelter | W3 shelter |  | low |  | N | N | N |  |
+| shelter | W3 shelter |  | low |  | N | N | N |  |
+| shelter | W3 shelter |  | low |  | N | N | N |  |
+| shelter | W3 shelter |  | low |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | low |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | low |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | low |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | low |  | N | N | N |  |
+| shelter | W3 shelter |  | low |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | medium |  | N | N | N |  |
+| shelter | W3 shelter |  | medium |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | low |  | N | N | N |  |
+| shelter | W3 shelter |  | low |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | low |  | N | N | N |  |
+| shelter | W3 shelter |  | low |  | N | N | N |  |
+| shelter | W3 shelter |  | low |  | N | N | N |  |
+| shelter | W3 shelter |  | low |  | N | N | N |  |
+| shelter | W3 shelter |  | low |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | low |  | N | N | N |  |
+| shelter | W3 shelter |  | medium |  | N | N | N |  |
+| shelter | W3 shelter |  | medium |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | low |  | N | N | N |  |
+| shelter | W3 shelter |  | medium |  | N | N | N |  |
+| shelter | W3 shelter |  | low |  | N | N | N |  |
+| shelter | W3 shelter |  | medium |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | medium |  | N | N | N |  |
+| shelter | W3 shelter |  | medium |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | medium |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | medium |  | N | N | N |  |
+| shelter | W3 shelter |  | medium |  | N | N | N |  |
+| shelter | W3 shelter |  | low |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | medium |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | medium |  | N | N | N |  |
+| shelter | W3 shelter |  | low |  | N | N | N |  |
+| shelter | W3 shelter |  | low |  | N | N | N |  |
+| shelter | W3 shelter |  | medium |  | N | N | N |  |
+| shelter | W3 shelter |  | medium |  | N | N | N |  |
+| shelter | W3 shelter |  | low |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | medium |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | medium |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | low |  | N | N | N |  |
+| shelter | W3 shelter |  | low |  | N | N | N |  |
+| shelter | W3 shelter |  | medium |  | N | N | N |  |
+| shelter | W3 shelter |  | medium |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | medium |  | N | N | N |  |
+| shelter | W3 shelter |  | medium |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | medium |  | N | N | N |  |
+| shelter | W3 shelter |  | low |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | low |  | N | N | N |  |
+| shelter | W3 shelter |  | low |  | N | N | N |  |
+| shelter | W3 shelter |  | low |  | N | N | N |  |
+| shelter | W3 shelter |  | low |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| shelter | W3 shelter |  | high |  | N | N | N |  |
+| 649286213 | W7 bottleneck |  |  | 1.000 | N | N | N |  |
+| 649286214 | W7 bottleneck |  |  | 2.000 | N | N | N |  |
+| 929963021 | W7 bottleneck |  |  | 4.000 | N | N | N |  |
+| 1074772659 | W7 bottleneck |  |  | 5.000 | N | N | N |  |
+| 1061487893 | W7 bottleneck |  |  | 3.000 | N | N | N |  |
+| Mataian_Hwy9_Bridge | W8 Guangfu (bridge) | 台9線馬太鞍溪橋 |  |  | N | N | N | priority=1 |
+
+THREE-ACT DETECTION SUMMARY:
+- Act 1 (Pre,  S2A_MSIL2A_20250615T023141_R046_T51QUG_20250615T070417):  forested Matai'an valley, no lake
+- Act 2 (Mid,  S2C_MSIL2A_20250911T022551_R046_T51QUG_20250911T055914):  barrier lake 1.046 km² detected
+- Act 3 (Post, S2B_MSIL2A_20251016T022559_R046_T51QUG_20251016T042804): lake drained; landslide source 23.816 km²;
+  debris flow footprint 3.221 km² over Guangfu
