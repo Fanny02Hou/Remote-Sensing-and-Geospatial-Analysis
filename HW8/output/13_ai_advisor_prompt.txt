@@ -1,0 +1,70 @@
+You are the Chief of Operations at the Hualien County Disaster Prevention Command Center, writing a brief for the county magistrate.
+
+ARIA v5.0 has just completed a three-act satellite audit of the 2025 Matai'an Creek barrier-lake event. Write a concise operational brief of about 250 words covering:
+
+1. Three-act timeline — what the imagery proves
+2. The pre-breach warning window (Jul 21 to Sep 23, 64 days) — what ARIA v5.0 could have caught if it had been operational
+3. Coverage gap — why the W3/W7 Hualien City focus missed Guangfu
+4. Next-24-hour orders: priority clearance, shelter resupply, UAV tasking
+5. One concrete suggestion to extend ARIA before the next barrier-lake event
+
+ARIA chain summary:
+- W3: shelter asset layer
+- W4: terrain risk layer
+- W5: rainfall-event context (Wipha heavy-rainfall records)
+- W7: network bottlenecks and top-5 critical nodes
+- W8: three-act Sentinel-2 disaster audit
+
+Coverage summary:
+- W3 hits: 28
+- W7 hits: 0
+- Guangfu hits: 4 / 5
+
+Three-act detection summary:
+- Act 1 (Pre,  S2A_MSIL2A_20250615T023141_R046_T51QUG_20250615T070417): forested Matai'an valley, no barrier lake
+- Act 2 (Mid,  S2C_MSIL2A_20250911T022551_R046_T51QUG_20250911T055914): barrier lake detected, estimated area = 1.022 km²
+- Act 3 (Post, S2B_MSIL2A_20251016T022559_R046_T51QUG_20251016T042804): lake drained; landslide source area = 19.660 km²; debris-flow footprint area = 1.460 km²
+
+Impact table:
+| asset | type | location | W4_terrain_risk | W7_centrality_rank | Barrier Lake Hit | Landslide Hit | Debris Flow Hit | notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| shelter_54 | W3 Shelter |  | low |  | N | Y | N | within 200 m of landslide source |
+| shelter_55 | W3 Shelter |  | high |  | N | Y | N | within 200 m of landslide source |
+| shelter_56 | W3 Shelter |  | high |  | N | Y | N | within 200 m of landslide source |
+| shelter_60 | W3 Shelter |  | high |  | N | Y | N | within 200 m of landslide source |
+| shelter_63 | W3 Shelter |  | low |  | N | Y | N | within 200 m of landslide source |
+| shelter_64 | W3 Shelter |  | high |  | N | Y | N | within 200 m of landslide source |
+| shelter_65 | W3 Shelter |  | high |  | N | Y | N | within 200 m of landslide source |
+| shelter_67 | W3 Shelter |  | low |  | N | Y | N | within 200 m of landslide source |
+| shelter_68 | W3 Shelter |  | high |  | N | Y | N | within 200 m of landslide source |
+| shelter_70 | W3 Shelter |  | high |  | N | Y | N | within 200 m of landslide source |
+| shelter_71 | W3 Shelter |  | high |  | N | Y | N | within 200 m of landslide source |
+| shelter_72 | W3 Shelter |  | high |  | N | Y | N | within 200 m of landslide source |
+| shelter_73 | W3 Shelter |  | high |  | N | Y | N | within 200 m of landslide source |
+| shelter_74 | W3 Shelter |  | high |  | N | Y | N | within 200 m of landslide source |
+| shelter_75 | W3 Shelter |  | high |  | N | Y | N | within 200 m of landslide source |
+| shelter_76 | W3 Shelter |  | high |  | N | Y | N | within 200 m of landslide source |
+| shelter_77 | W3 Shelter |  | high |  | N | Y | N | within 200 m of landslide source |
+| shelter_78 | W3 Shelter |  | high |  | N | Y | N | within 200 m of landslide source |
+| shelter_80 | W3 Shelter |  | low |  | N | Y | N | within 200 m of landslide source |
+| shelter_81 | W3 Shelter |  | high |  | N | Y | N | within 200 m of landslide source |
+| shelter_82 | W3 Shelter |  | high |  | N | Y | N | within 200 m of landslide source |
+| shelter_84 | W3 Shelter |  | low |  | N | Y | N | within 200 m of landslide source |
+| shelter_85 | W3 Shelter |  | low |  | N | Y | N | within 200 m of landslide source |
+| shelter_88 | W3 Shelter |  | low |  | N | Y | N | within 200 m of landslide source |
+| shelter_90 | W3 Shelter |  | high |  | N | Y | N | within 200 m of landslide source |
+| shelter_92 | W3 Shelter |  | low |  | N | Y | N | within 200 m of landslide source |
+| shelter_93 | W3 Shelter |  | low |  | N | Y | N | within 200 m of landslide source |
+| shelter_94 | W3 Shelter |  | low |  | N | Y | N | within 200 m of landslide source |
+| Guangfu_Station | W8 Guangfu (critical_infra) | 光復火車站 |  |  | N | Y | N | within 200 m of landslide source; priority=2 |
+| Guangfu_Elementary | W8 Guangfu (shelter) | 光復國小 |  |  | N | Y | N | within 200 m of landslide source; priority=1 |
+| Guangfu_Township_Office | W8 Guangfu (shelter) | 光復鄉公所 |  |  | N | Y | N | within 200 m of landslide source; priority=1 |
+| Foxu_Debris_Zone | W8 Guangfu (critical_infra) | 佛祖街沉積區中心 |  |  | N | Y | N | within 200 m of landslide source; priority=3 |
+| shelter_0 | W3 Shelter |  | high |  | N | N | N | outside event area |
+| shelter_1 | W3 Shelter |  | high |  | N | N | N | outside event area |
+| shelter_2 | W3 Shelter |  | high |  | N | N | N | outside event area |
+| shelter_3 | W3 Shelter |  | high |  | N | N | N | outside event area |
+| shelter_4 | W3 Shelter |  | high |  | N | N | N | outside event area |
+| shelter_5 | W3 Shelter |  | high |  | N | N | N | outside event area |
+| shelter_6 | W3 Shelter |  | high |  | N | N | N | outside event area |
+| shelter_7 | W3 Shelter |  | high |  | N | N | N | outside event area |

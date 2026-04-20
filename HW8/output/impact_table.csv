@@ -1,0 +1,209 @@
+asset,type,location,W4_terrain_risk,W7_centrality_rank,Barrier Lake Hit,Landslide Hit,Debris Flow Hit,notes
+shelter_54,W3 Shelter,,low,,N,Y,N,within 200 m of landslide source
+shelter_55,W3 Shelter,,high,,N,Y,N,within 200 m of landslide source
+shelter_56,W3 Shelter,,high,,N,Y,N,within 200 m of landslide source
+shelter_60,W3 Shelter,,high,,N,Y,N,within 200 m of landslide source
+shelter_63,W3 Shelter,,low,,N,Y,N,within 200 m of landslide source
+shelter_64,W3 Shelter,,high,,N,Y,N,within 200 m of landslide source
+shelter_65,W3 Shelter,,high,,N,Y,N,within 200 m of landslide source
+shelter_67,W3 Shelter,,low,,N,Y,N,within 200 m of landslide source
+shelter_68,W3 Shelter,,high,,N,Y,N,within 200 m of landslide source
+shelter_70,W3 Shelter,,high,,N,Y,N,within 200 m of landslide source
+shelter_71,W3 Shelter,,high,,N,Y,N,within 200 m of landslide source
+shelter_72,W3 Shelter,,high,,N,Y,N,within 200 m of landslide source
+shelter_73,W3 Shelter,,high,,N,Y,N,within 200 m of landslide source
+shelter_74,W3 Shelter,,high,,N,Y,N,within 200 m of landslide source
+shelter_75,W3 Shelter,,high,,N,Y,N,within 200 m of landslide source
+shelter_76,W3 Shelter,,high,,N,Y,N,within 200 m of landslide source
+shelter_77,W3 Shelter,,high,,N,Y,N,within 200 m of landslide source
+shelter_78,W3 Shelter,,high,,N,Y,N,within 200 m of landslide source
+shelter_80,W3 Shelter,,low,,N,Y,N,within 200 m of landslide source
+shelter_81,W3 Shelter,,high,,N,Y,N,within 200 m of landslide source
+shelter_82,W3 Shelter,,high,,N,Y,N,within 200 m of landslide source
+shelter_84,W3 Shelter,,low,,N,Y,N,within 200 m of landslide source
+shelter_85,W3 Shelter,,low,,N,Y,N,within 200 m of landslide source
+shelter_88,W3 Shelter,,low,,N,Y,N,within 200 m of landslide source
+shelter_90,W3 Shelter,,high,,N,Y,N,within 200 m of landslide source
+shelter_92,W3 Shelter,,low,,N,Y,N,within 200 m of landslide source
+shelter_93,W3 Shelter,,low,,N,Y,N,within 200 m of landslide source
+shelter_94,W3 Shelter,,low,,N,Y,N,within 200 m of landslide source
+Guangfu_Station,W8 Guangfu (critical_infra),光復火車站,,,N,Y,N,within 200 m of landslide source; priority=2
+Guangfu_Elementary,W8 Guangfu (shelter),光復國小,,,N,Y,N,within 200 m of landslide source; priority=1
+Guangfu_Township_Office,W8 Guangfu (shelter),光復鄉公所,,,N,Y,N,within 200 m of landslide source; priority=1
+Foxu_Debris_Zone,W8 Guangfu (critical_infra),佛祖街沉積區中心,,,N,Y,N,within 200 m of landslide source; priority=3
+shelter_0,W3 Shelter,,high,,N,N,N,outside event area
+shelter_1,W3 Shelter,,high,,N,N,N,outside event area
+shelter_2,W3 Shelter,,high,,N,N,N,outside event area
+shelter_3,W3 Shelter,,high,,N,N,N,outside event area
+shelter_4,W3 Shelter,,high,,N,N,N,outside event area
+shelter_5,W3 Shelter,,high,,N,N,N,outside event area
+shelter_6,W3 Shelter,,high,,N,N,N,outside event area
+shelter_7,W3 Shelter,,high,,N,N,N,outside event area
+shelter_8,W3 Shelter,,high,,N,N,N,outside event area
+shelter_9,W3 Shelter,,high,,N,N,N,outside event area
+shelter_10,W3 Shelter,,high,,N,N,N,outside event area
+shelter_11,W3 Shelter,,high,,N,N,N,outside event area
+shelter_12,W3 Shelter,,low,,N,N,N,outside event area
+shelter_13,W3 Shelter,,low,,N,N,N,outside event area
+shelter_14,W3 Shelter,,low,,N,N,N,outside event area
+shelter_15,W3 Shelter,,high,,N,N,N,outside event area
+shelter_16,W3 Shelter,,high,,N,N,N,outside event area
+shelter_17,W3 Shelter,,high,,N,N,N,outside event area
+shelter_18,W3 Shelter,,high,,N,N,N,outside event area
+shelter_19,W3 Shelter,,high,,N,N,N,outside event area
+shelter_20,W3 Shelter,,high,,N,N,N,outside event area
+shelter_21,W3 Shelter,,low,,N,N,N,outside event area
+shelter_22,W3 Shelter,,low,,N,N,N,outside event area
+shelter_23,W3 Shelter,,high,,N,N,N,outside event area
+shelter_24,W3 Shelter,,high,,N,N,N,outside event area
+shelter_25,W3 Shelter,,high,,N,N,N,outside event area
+shelter_26,W3 Shelter,,high,,N,N,N,outside event area
+shelter_27,W3 Shelter,,high,,N,N,N,outside event area
+shelter_28,W3 Shelter,,high,,N,N,N,outside event area
+shelter_29,W3 Shelter,,high,,N,N,N,outside event area
+shelter_30,W3 Shelter,,high,,N,N,N,outside event area
+shelter_31,W3 Shelter,,high,,N,N,N,outside event area
+shelter_32,W3 Shelter,,high,,N,N,N,outside event area
+shelter_33,W3 Shelter,,high,,N,N,N,outside event area
+shelter_34,W3 Shelter,,high,,N,N,N,outside event area
+shelter_35,W3 Shelter,,high,,N,N,N,outside event area
+shelter_36,W3 Shelter,,high,,N,N,N,outside event area
+shelter_37,W3 Shelter,,high,,N,N,N,outside event area
+shelter_38,W3 Shelter,,high,,N,N,N,outside event area
+shelter_39,W3 Shelter,,high,,N,N,N,outside event area
+shelter_40,W3 Shelter,,high,,N,N,N,outside event area
+shelter_41,W3 Shelter,,high,,N,N,N,outside event area
+shelter_42,W3 Shelter,,high,,N,N,N,outside event area
+shelter_43,W3 Shelter,,high,,N,N,N,outside event area
+shelter_44,W3 Shelter,,high,,N,N,N,outside event area
+shelter_45,W3 Shelter,,high,,N,N,N,outside event area
+shelter_46,W3 Shelter,,high,,N,N,N,outside event area
+shelter_47,W3 Shelter,,low,,N,N,N,outside event area
+shelter_48,W3 Shelter,,high,,N,N,N,outside event area
+shelter_49,W3 Shelter,,low,,N,N,N,outside event area
+shelter_50,W3 Shelter,,high,,N,N,N,outside event area
+shelter_51,W3 Shelter,,high,,N,N,N,outside event area
+shelter_52,W3 Shelter,,high,,N,N,N,outside event area
+shelter_53,W3 Shelter,,high,,N,N,N,outside event area
+shelter_57,W3 Shelter,,low,,N,N,N,outside event area
+shelter_58,W3 Shelter,,low,,N,N,N,outside event area
+shelter_59,W3 Shelter,,low,,N,N,N,outside event area
+shelter_61,W3 Shelter,,high,,N,N,N,outside event area
+shelter_62,W3 Shelter,,high,,N,N,N,outside event area
+shelter_66,W3 Shelter,,high,,N,N,N,outside event area
+shelter_69,W3 Shelter,,high,,N,N,N,outside event area
+shelter_79,W3 Shelter,,high,,N,N,N,outside event area
+shelter_83,W3 Shelter,,high,,N,N,N,outside event area
+shelter_86,W3 Shelter,,low,,N,N,N,outside event area
+shelter_87,W3 Shelter,,low,,N,N,N,outside event area
+shelter_89,W3 Shelter,,low,,N,N,N,outside event area
+shelter_91,W3 Shelter,,low,,N,N,N,outside event area
+shelter_95,W3 Shelter,,low,,N,N,N,outside event area
+shelter_96,W3 Shelter,,low,,N,N,N,outside event area
+shelter_97,W3 Shelter,,high,,N,N,N,outside event area
+shelter_98,W3 Shelter,,low,,N,N,N,outside event area
+shelter_99,W3 Shelter,,high,,N,N,N,outside event area
+shelter_100,W3 Shelter,,low,,N,N,N,outside event area
+shelter_101,W3 Shelter,,high,,N,N,N,outside event area
+shelter_102,W3 Shelter,,low,,N,N,N,outside event area
+shelter_103,W3 Shelter,,high,,N,N,N,outside event area
+shelter_104,W3 Shelter,,low,,N,N,N,outside event area
+shelter_105,W3 Shelter,,low,,N,N,N,outside event area
+shelter_106,W3 Shelter,,high,,N,N,N,outside event area
+shelter_107,W3 Shelter,,high,,N,N,N,outside event area
+shelter_108,W3 Shelter,,high,,N,N,N,outside event area
+shelter_109,W3 Shelter,,high,,N,N,N,outside event area
+shelter_110,W3 Shelter,,high,,N,N,N,outside event area
+shelter_111,W3 Shelter,,high,,N,N,N,outside event area
+shelter_112,W3 Shelter,,high,,N,N,N,outside event area
+shelter_113,W3 Shelter,,high,,N,N,N,outside event area
+shelter_114,W3 Shelter,,high,,N,N,N,outside event area
+shelter_115,W3 Shelter,,high,,N,N,N,outside event area
+shelter_116,W3 Shelter,,high,,N,N,N,outside event area
+shelter_117,W3 Shelter,,medium,,N,N,N,outside event area
+shelter_118,W3 Shelter,,medium,,N,N,N,outside event area
+shelter_119,W3 Shelter,,high,,N,N,N,outside event area
+shelter_120,W3 Shelter,,low,,N,N,N,outside event area
+shelter_121,W3 Shelter,,low,,N,N,N,outside event area
+shelter_122,W3 Shelter,,high,,N,N,N,outside event area
+shelter_123,W3 Shelter,,low,,N,N,N,outside event area
+shelter_124,W3 Shelter,,low,,N,N,N,outside event area
+shelter_125,W3 Shelter,,low,,N,N,N,outside event area
+shelter_126,W3 Shelter,,low,,N,N,N,outside event area
+shelter_127,W3 Shelter,,low,,N,N,N,outside event area
+shelter_128,W3 Shelter,,high,,N,N,N,outside event area
+shelter_129,W3 Shelter,,high,,N,N,N,outside event area
+shelter_130,W3 Shelter,,high,,N,N,N,outside event area
+shelter_131,W3 Shelter,,high,,N,N,N,outside event area
+shelter_132,W3 Shelter,,low,,N,N,N,outside event area
+shelter_133,W3 Shelter,,medium,,N,N,N,outside event area
+shelter_134,W3 Shelter,,medium,,N,N,N,outside event area
+shelter_135,W3 Shelter,,high,,N,N,N,outside event area
+shelter_136,W3 Shelter,,low,,N,N,N,outside event area
+shelter_137,W3 Shelter,,medium,,N,N,N,outside event area
+shelter_138,W3 Shelter,,low,,N,N,N,outside event area
+shelter_139,W3 Shelter,,medium,,N,N,N,outside event area
+shelter_140,W3 Shelter,,high,,N,N,N,outside event area
+shelter_141,W3 Shelter,,high,,N,N,N,outside event area
+shelter_142,W3 Shelter,,medium,,N,N,N,outside event area
+shelter_143,W3 Shelter,,medium,,N,N,N,outside event area
+shelter_144,W3 Shelter,,high,,N,N,N,outside event area
+shelter_145,W3 Shelter,,high,,N,N,N,outside event area
+shelter_146,W3 Shelter,,high,,N,N,N,outside event area
+shelter_147,W3 Shelter,,medium,,N,N,N,outside event area
+shelter_148,W3 Shelter,,high,,N,N,N,outside event area
+shelter_149,W3 Shelter,,high,,N,N,N,outside event area
+shelter_150,W3 Shelter,,high,,N,N,N,outside event area
+shelter_151,W3 Shelter,,medium,,N,N,N,outside event area
+shelter_152,W3 Shelter,,medium,,N,N,N,outside event area
+shelter_153,W3 Shelter,,low,,N,N,N,outside event area
+shelter_154,W3 Shelter,,high,,N,N,N,outside event area
+shelter_155,W3 Shelter,,medium,,N,N,N,outside event area
+shelter_156,W3 Shelter,,high,,N,N,N,outside event area
+shelter_157,W3 Shelter,,medium,,N,N,N,outside event area
+shelter_158,W3 Shelter,,low,,N,N,N,outside event area
+shelter_159,W3 Shelter,,low,,N,N,N,outside event area
+shelter_160,W3 Shelter,,medium,,N,N,N,outside event area
+shelter_161,W3 Shelter,,medium,,N,N,N,outside event area
+shelter_162,W3 Shelter,,low,,N,N,N,outside event area
+shelter_163,W3 Shelter,,high,,N,N,N,outside event area
+shelter_164,W3 Shelter,,high,,N,N,N,outside event area
+shelter_165,W3 Shelter,,medium,,N,N,N,outside event area
+shelter_166,W3 Shelter,,high,,N,N,N,outside event area
+shelter_167,W3 Shelter,,high,,N,N,N,outside event area
+shelter_168,W3 Shelter,,high,,N,N,N,outside event area
+shelter_169,W3 Shelter,,high,,N,N,N,outside event area
+shelter_170,W3 Shelter,,medium,,N,N,N,outside event area
+shelter_171,W3 Shelter,,high,,N,N,N,outside event area
+shelter_172,W3 Shelter,,high,,N,N,N,outside event area
+shelter_173,W3 Shelter,,high,,N,N,N,outside event area
+shelter_174,W3 Shelter,,high,,N,N,N,outside event area
+shelter_175,W3 Shelter,,high,,N,N,N,outside event area
+shelter_176,W3 Shelter,,high,,N,N,N,outside event area
+shelter_177,W3 Shelter,,high,,N,N,N,outside event area
+shelter_178,W3 Shelter,,high,,N,N,N,outside event area
+shelter_179,W3 Shelter,,high,,N,N,N,outside event area
+shelter_180,W3 Shelter,,low,,N,N,N,outside event area
+shelter_181,W3 Shelter,,low,,N,N,N,outside event area
+shelter_182,W3 Shelter,,medium,,N,N,N,outside event area
+shelter_183,W3 Shelter,,medium,,N,N,N,outside event area
+shelter_184,W3 Shelter,,high,,N,N,N,outside event area
+shelter_185,W3 Shelter,,medium,,N,N,N,outside event area
+shelter_186,W3 Shelter,,medium,,N,N,N,outside event area
+shelter_187,W3 Shelter,,high,,N,N,N,outside event area
+shelter_188,W3 Shelter,,medium,,N,N,N,outside event area
+shelter_189,W3 Shelter,,low,,N,N,N,outside event area
+shelter_190,W3 Shelter,,high,,N,N,N,outside event area
+shelter_191,W3 Shelter,,low,,N,N,N,outside event area
+shelter_192,W3 Shelter,,low,,N,N,N,outside event area
+shelter_193,W3 Shelter,,low,,N,N,N,outside event area
+shelter_194,W3 Shelter,,low,,N,N,N,outside event area
+shelter_195,W3 Shelter,,high,,N,N,N,outside event area
+shelter_196,W3 Shelter,,high,,N,N,N,outside event area
+shelter_197,W3 Shelter,,high,,N,N,N,outside event area
+649286213,W7 Bottleneck,,,1.0,N,N,N,outside event area
+649286214,W7 Bottleneck,,,2.0,N,N,N,outside event area
+1061487893,W7 Bottleneck,,,3.0,N,N,N,outside event area
+929963021,W7 Bottleneck,,,4.0,N,N,N,outside event area
+1074772659,W7 Bottleneck,,,5.0,N,N,N,outside event area
+Mataian_Hwy9_Bridge,W8 Guangfu (bridge),台9線馬太鞍溪橋,,,N,N,N,priority=1
