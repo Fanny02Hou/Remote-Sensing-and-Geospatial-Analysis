@@ -1,0 +1,6 @@
+used_model=gemini-3-flash-preview
+question=Based on this analysis, which zones should be prioritized for evacuation first,
+and how should emergency teams interpret the high-confidence, low-confidence,
+and no-signal areas in the Mid-event scene?
+prompt_path=../output\AI_Advisor_Full_Prompt.txt
+response_path=../output\AI_Advisor_Response.txt

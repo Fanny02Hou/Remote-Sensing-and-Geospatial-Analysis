@@ -1,0 +1,225 @@
+
+
+ARIA v6.0 AI ADVISOR - Disaster Response Assistant
+═══════════════════════════════════════════════════════════════════════
+
+You are an operational remote sensing advisor for barrier-lake disaster response.
+Use ONLY the ARIA report and derived metrics provided below.
+Do not invent numbers. Do not claim certainty beyond the available evidence.
+
+AVAILABLE EVIDENCE
+──────────────────
+• Pre / Mid / Post Sentinel-2 scene analysis
+• NDVI and NDWI comparison
+• Water masks and threshold sensitivity
+• Confusion matrix and validation metrics
+• 3-zone confidence map
+• Barrier-lake mapped water area within lake AOI
+
+KEY NUMBERS TO USE
+──────────────────
+• Selected NDWI threshold: 0.100
+• Optimal F1 threshold: 0.055
+• Producer's Accuracy: 1.000
+• User's Accuracy: 1.000
+• Overall Accuracy: 1.000
+• Cohen's Kappa: 1.000
+• Mid-event mapped lake area: 0.6731 km²
+• Post-event mapped lake area: 0.0098 km²
+• Area decrease: 0.6633 km²
+
+HOW TO ANSWER
+─────────────
+1. Cite the exact metric values whenever relevant.
+2. Explain uncertainty explicitly.
+3. Distinguish:
+   - High-confidence zone
+   - Low-confidence zone
+   - No-signal zone
+4. Give actionable recommendations for disaster response.
+5. Avoid over-interpreting individual noisy pixels.
+6. Do not claim precision beyond the 10 m Sentinel-2 pixel scale.
+7. If the evidence is insufficient, say so clearly.
+
+PREFERRED RESPONSE FORMAT
+─────────────────────────
+• Answer
+• Evidence used
+• Uncertainty / limitations
+• Recommended next steps
+
+EXAMPLE QUESTIONS
+─────────────────
+1. Which zones should be evacuated first?
+2. What is the maximum mapped lake extent in the Mid-event scene?
+3. How reliable is this water detection for operational use?
+4. Why might false positives occur around the shoreline?
+5. Should we trust the Post-event recovery map?
+6. How would changing the threshold alter the evacuation zone?
+
+
+ARIA REPORT
+═══════════════════════════════════════════════════════════════════════
+
+╔════════════════════════════════════════════════════════════════════════════════╗
+║                     ARIA v6.0 VALIDATED DISASTER REPORT                        ║
+║              Remote Sensing Analysis & Validation Authority (ARIA)             ║
+╚════════════════════════════════════════════════════════════════════════════════╝
+
+CASE STUDY: Matai'an Barrier Lake (Typhoon Colo Response)
+Institution: National Taiwan University (NTU)
+Analyst: Remote Sensing Lab
+Report Date: 2025-10-12
+
+────────────────────────────────────────────────────────────────────────────────
+
+EXECUTIVE SUMMARY
+─────────────────
+A temporary barrier lake formed in Matai'an valley during Typhoon Colo (Aug 2025).
+Using Sentinel-2 change detection, we mapped water presence and validated against
+ground-truth validation points. NDWI proved more sensitive than NDVI for water.
+
+STUDY AREA (Bounding Box)
+──────────────────────────
+West:  121.28° E
+East:  121.52° E
+South: 23.56° N
+North: 23.76° N
+Area:  ~360 km²
+
+LAKE-FOCUSED AOI
+────────────────
+West:  121.27° E
+East:  121.32° E
+South: 23.68° N
+North: 23.72° N
+
+TEMPORAL ANALYSIS
+─────────────────
+Pre-event baseline:   2025-06-01 (before typhoon)
+Disaster onset:       2025-08-15 (lake at maximum extent)
+Post-event recovery:  2025-10-10 (lake drained)
+
+SPECTRAL INDICES USED
+─────────────────────
+NDVI = (NIR - Red) / (NIR + Red)
+  → Sensitivity: Vegetation density, weak water signal
+  → ΔNDVIpeak = -0.0185
+
+NDWI = (Green - NIR) / (Green + NIR)
+  → Sensitivity: Maximum water detection
+  → ΔNDWIpeak = 0.0156
+
+VALIDATION RESULTS
+──────────────────
+Validation Points Analyzed:    60
+Ground Truth Classes:          Water=15, No-Water=45
+
+Confusion Matrix (Water Detection at Mid-event):
+  True Negatives:      45
+  False Positives:      0
+  False Negatives:      0
+  True Positives:      15
+
+DETECTED LAKE AREA (within lake-focused AOI)
+────────────────────────────────────────────
+Mid-event mapped water area:
+  0.6731 km²
+  (67.31 ha)
+
+Post-event mapped water area:
+  0.0098 km²
+  (0.98 ha)
+
+Mapped area decrease (Mid - Post):
+  0.6633 km²
+  (66.33 ha)
+
+Mid-event confidence split:
+  High-confidence water area: 0.6209 km²
+  Low-confidence water area:  0.6017 km²
+
+ACCURACY METRICS
+────────────────
+Producer's Accuracy (Sensitivity / Recall):
+  1.000 (100.0%)
+  → 0 false negatives (missed water)
+
+User's Accuracy (Precision):
+  1.000 (100.0%)
+  → 0 false positives (false alarms)
+
+Overall Accuracy:
+  1.000 (100.0%)
+
+Cohen's Kappa (Agreement beyond chance):
+  1.000
+  → Interpretation: Substantial agreement (0.61–0.80 = Substantial; >0.80 = Almost Perfect)
+
+DETECTION THRESHOLD
+────────────────────
+Selected NDWI Threshold:  0.100
+Rationale:               Balance between sensitivity and precision
+Optimal Threshold (F1):  0.055
+
+CONFIDENCE LEVELS
+──────────────────
+High Confidence Zone (NDWI > 0.15):
+  → Most likely water; high confidence for evacuation planning
+
+Low Confidence Zone (0.05 < NDWI ≤ 0.15):
+  → Possible water; requires field verification or higher-res imagery
+
+No Signal Zone (NDWI ≤ 0.05):
+  → No detectable water; safe for reconstruction activities
+
+RECOMMENDATIONS FOR DISASTER RESPONSE
+──────────────────────────────────────
+1. EVACUATION PRIORITY: High-confidence zones should be prioritized for evacuation
+2. RESOURCE ALLOCATION: Low-confidence zones warrant additional ground surveys
+3. RECOVERY TIMELINE: October imagery confirms lake drainage; safe to begin recovery ops
+4. THRESHOLD TUNING: Producer's Accuracy is critical; prioritize sensitivity over precision
+
+KEY FINDINGS
+────────────
+✓ NDWI is more reliable than NDVI for barrier lake detection
+✓ Sentinel-2 is suitable for broad-scale water detection at 10 m resolution
+✓ Temporal change (Mid - Pre) is more robust than relying only on absolute thresholds
+✓ Ground validation is essential for disaster response decisions
+✓ The barrier-lake water extent can be summarized quantitatively in km² and ha
+
+LIMITATIONS & CAVEATS
+─────────────────────
+• Cloud cover reduces valid pixels (typical for tropical typhoon season)
+• Some validation points fall on invalid/cloud-masked pixels but were retained as No Water
+• Shoreline mixed pixels introduce uncertainty
+• Validation points remain limited; larger sample recommended
+• Reported lake area is threshold-based mapped water extent within the lake AOI, not manual shoreline delineation
+• Resolution (~10 m) may miss small isolated ponds
+
+────────────────────────────────────────────────────────────────────────────────
+
+ARIA v6.0 ASSESSMENT: ✓ PRELIMINARY VALIDATION COMPLETED
+
+Auditor (Confusion Matrix):     ✓ Computed
+Rater (Accuracy Metrics):       ✓ Calculated
+Indicator (Confidence Zones):   ✓ Mapped
+Advisor (Recommendations):      ✓ Provided
+
+Report Status: FINAL
+Quality Level: Educational / Demonstration Use
+
+────────────────────────────────────────────────────────────────────────────────
+Generated by ARIA v6.0 at 2026-04-21 17:18:22
+
+
+USER QUESTION
+═══════════════════════════════════════════════════════════════════════
+Based on this analysis, which zones should be prioritized for evacuation first,
+and how should emergency teams interpret the high-confidence, low-confidence,
+and no-signal areas in the Mid-event scene?
+
+INSTRUCTION
+═══════════════════════════════════════════════════════════════════════
+Answer using only the evidence above.
+If a conclusion is uncertain, state the uncertainty explicitly.

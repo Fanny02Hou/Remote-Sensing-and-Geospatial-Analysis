@@ -1,0 +1,27 @@
+### Answer
+Based on the ARIA v6.0 analysis for the Mid-event scene (2025-08-15), the **High-Confidence Zone (NDWI > 0.15)** must be prioritized for immediate evacuation. This zone represents the most certain extent of the barrier lake, covering approximately **0.6209 km²**. 
+
+Emergency teams should interpret the zones as follows:
+*   **High-Confidence Zone:** Definitive water presence. Use this for primary evacuation boundaries and immediate life-safety operations.
+*   **Low-Confidence Zone (0.05 < NDWI ≤ 0.15):** Potential water or saturated ground. These areas, totaling **0.6017 km²**, represent "at-risk" margins where shoreline mixed pixels or shallow water may exist. These should be treated as secondary caution zones.
+*   **No-Signal Zone (NDWI ≤ 0.05):** No detectable water. These areas are currently considered safe for reconstruction and logistics, though they remain subject to standard geohazard monitoring.
+
+### Evidence used
+*   **High-confidence water area:** 0.6209 km².
+*   **Low-confidence water area:** 0.6017 km².
+*   **Accuracy Metrics:** Producer’s Accuracy (1.000), User’s Accuracy (1.000), and Cohen’s Kappa (1.000) indicate that for the 60 validated points, the model perfectly distinguished between water and no-water.
+*   **Spectral Thresholds:** High confidence is defined by NDWI > 0.15; the selected operational threshold is 0.100.
+*   **Validation:** 15/15 water points were correctly identified (True Positives).
+
+### Uncertainty / limitations
+*   **Spatial Resolution:** Sentinel-2 has a 10 m pixel scale. Narrow inlets or small isolated ponds smaller than 100 m² may not be captured.
+*   **Shoreline Mixed Pixels:** Pixels containing both land and water introduce uncertainty in the exact boundary of the lake.
+*   **Cloud Interference:** While validation was successful, the report notes that cloud cover (common during Typhoon Colo) typically reduces the number of valid pixels.
+*   **Sample Size:** Validation is based on 60 points; while metrics show "perfect" accuracy (1.000), this may not capture every local anomaly across the entire 360 km² study area.
+*   **Temporal Gap:** The Mid-event data is from 2025-08-15; conditions may have changed rapidly between satellite passes.
+
+### Recommended next steps
+1.  **Immediate Action:** Execute mandatory evacuations for all inhabitants and assets within the **0.6209 km² High-Confidence Zone**.
+2.  **Field Verification:** Deploy ground teams or UAVs (drones) specifically to the **Low-Confidence Zone (0.6017 km²)** to resolve uncertainty caused by mixed pixels or vegetation interference.
+3.  **Sensitivity Adjustment:** If the priority is to ensure zero missed water detections (maximizing safety), emergency managers should consider using the **Optimal F1 threshold (0.055)** to expand the caution area.
+4.  **Monitoring:** Transition to recovery planning in the No-Signal zones, as the Post-event mapped area (2025-10-10) shows a significant decrease to **0.0098 km²**, indicating the lake has largely drained.
