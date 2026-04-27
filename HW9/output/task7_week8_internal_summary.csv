@@ -1,0 +1,4 @@
+﻿impact_type,source_column,Y_count,N_count,Unknown_count,total_records,percent_Y
+Barrier Lake / Water Inundation,Barrier Lake Hit,0,208,0,208,0.0
+Landslide / Vegetation-Surface Disturbance,Landslide Hit,32,176,0,208,15.384615384615385
+Debris Flow / Debris Field,Debris Flow Hit,0,208,0,208,0.0

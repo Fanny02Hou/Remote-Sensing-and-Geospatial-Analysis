@@ -1,0 +1,4 @@
+﻿layer,finite_pixel_count,area_km2_if_counted
+Raw ΔNDWI Pre→Post without SCL mask,5549173,554.9173
+Masked ΔNDWI Pre→Post with SCL intersection mask,3193092,319.3092
+Potential phantom water where raw ΔNDWI > 0.15 and invalid by SCL,212932,21.2932

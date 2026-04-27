@@ -1,0 +1,5 @@
+﻿zone_id,zone,rule,pixel_count,area_km2,percent_of_valid_area
+1,High Confidence,delta_ndvi_post < -0.150,328914,32.8914,10.300789672715656
+2,Low Confidence,-0.150 <= delta_ndvi_post < -0.100,159607,15.9607,4.9985045856762795
+3,No Detection,delta_ndvi_post >= -0.100,2704574,270.4574,84.70070574160806
+99,Total valid analysis area,High + Low + No Detection within SCL-valid pixels,3193095,319.3095,100.0

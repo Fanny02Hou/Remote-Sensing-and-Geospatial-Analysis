@@ -1,0 +1,11 @@
+used_model=gemini-3-flash-preview
+prompt_path=c:\Users\97000\CascadeProjects\Remote-Sensing-and-Geospatial-Analysis\HW9\output\task6_ai_advisor_exact_prompt.txt
+response_path=c:\Users\97000\CascadeProjects\Remote-Sensing-and-Geospatial-Analysis\HW9\output\task6_ai_advisor_response.txt
+OA=0.7962962962962963
+PA=0.6896551724137931
+UA=0.9090909090909091
+Kappa=0.5981055480378891
+F1=0.7843137254901961
+high_confidence_area_km2=32.8914
+threshold=-0.1
+last_error=None
