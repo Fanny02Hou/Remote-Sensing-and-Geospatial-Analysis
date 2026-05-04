@@ -1,0 +1,37 @@
+You are an emergency management advisor for Hualien County during Typhoon Fung-wong.
+
+Based on these ARIA v7.0 sensor fusion results, generate a strategic operational briefing that covers:
+
+1. Which areas require immediate evacuation?
+2. How should resources be allocated between high-confidence and SAR-only zones?
+3. What are the limitations of the current assessment?
+4. What additional data would improve confidence?
+
+Use only the evidence provided below. Do not invent numbers. Clearly distinguish high-confidence flood zones from SAR-only cloudy zones.
+
+KEY METRICS
+- High confidence flood area: 4.5434 km²
+- SAR-only cloudy flood area: 2.7326 km²
+- False positives removed by topographic / alternative filter: 4.3372 km²
+- False-positive cleaning method: post-event morphological opening and connected component filtering
+- Cloud cover percentage over AOI: 14.39%
+- SAR threshold: -14.0 dB
+  - Explanation: -14.0 dB was used as the SAR water threshold. This value was selected after inspecting the post-event SAR VV dB histogram; lower backscatter values represent smoother water-like surfaces. Although ARIA commonly uses about -18 dB as a global reference, the selected threshold should reflect the local histogram and scene condition.
+- NDWI threshold: 0.00
+  - Explanation: 0.00 was used as the NDWI water threshold. Clear water is often detected with a threshold around 0.3, while turbid or sediment-rich disaster water may require a lower threshold near 0.0. In this workflow, the NDWI result is also constrained by the SCL cloud mask.
+
+INTERPRETATION CONTEXT
+- High-confidence flood zones indicate areas where both optical NDWI and SAR support post-event water detection.
+- SAR-only cloudy zones indicate areas where SAR detected water but optical imagery was cloud-covered or unusable.
+- Cloud-covered optical areas should not be interpreted as safe.
+- False positives were handled using topographic filtering where DEM was appropriate, and morphological / connected component filtering where post-event DEM was unavailable.
+- This output is a remote-sensing decision-support layer, not a final field-confirmed evacuation boundary.
+
+PREFERRED RESPONSE FORMAT
+1. Immediate evacuation priorities
+2. Resource allocation strategy
+3. Key limitations
+4. Additional data needed
+5. Operational recommendation
+
+Please answer in Chinese.

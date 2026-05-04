@@ -1,0 +1,7 @@
+﻿step,pixels,area_km2
+raw_post_sar_water,271173,27.1173
+after_morphological_opening,255784,25.578400000000002
+after_connected_component_filtering,227801,22.7801
+removed_by_opening,15389,1.5389000000000002
+removed_by_component_filtering,27983,2.7983000000000002
+total_removed,43372,4.3372

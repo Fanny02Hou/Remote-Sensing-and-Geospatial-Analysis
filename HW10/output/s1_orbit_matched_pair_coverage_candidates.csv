@@ -1,0 +1,3 @@
+﻿pre_datetime,post_datetime,pre_orbit_state,post_orbit_state,pre_relative_orbit,post_relative_orbit,same_relative_orbit,time_gap_days,pre_aoi_valid_percent,post_aoi_valid_percent,combined_valid_percent
+2025-11-07 21:53:03.101138+00:00,2025-11-13 21:52:02.893246+00:00,descending,descending,105,105,True,5,100.0,99.98715125941085,99.99357562970542
+2025-11-01 21:52:03.680039+00:00,2025-11-13 21:52:02.893246+00:00,descending,descending,105,105,True,11,99.9823938014648,99.98715125941085,99.98477253043782

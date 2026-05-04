@@ -1,0 +1,10 @@
+used_model=gemini-3-flash-preview
+prompt_path=output\task4a_ai_strategic_briefing_exact_prompt.txt
+response_path=output\task4a_ai_strategic_briefing_response.txt
+high_confidence_area_km2=4.5434
+sar_only_cloudy_area_km2=2.7326
+false_positive_removed_area_km2=4.3372
+cloud_cover_percentage=14.386408663475086
+SAR_THRESHOLD=-14.0
+NDWI_THRESHOLD=0.0
+last_error=None

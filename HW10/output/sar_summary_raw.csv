@@ -1,0 +1,4 @@
+﻿period,item_id,datetime,orbit_state,relative_orbit,sar_threshold_db,median_filter_size,valid_pixels,valid_percent,invalid_pixels,water_pixels_raw,water_area_raw_km2,mean_backscatter_water_db
+pre_event,S1A_IW_GRDH_1SDV_20251107T215250_20251107T215315_061777_07B8B7_rtc,2025-11-07T21:53:03.101138Z,descending,105,-14.0,5,5549182,100.0,0,260330,26.033,-16.535539627075195
+post_event,S1C_IW_GRDH_1SDV_20251113T215150_20251113T215215_005001_009E5E_rtc,2025-11-13T21:52:02.893246Z,descending,105,-14.0,5,5548469,99.98715125941085,713,271173,27.1173,-16.64083480834961
+sar_change_raw,post_sar_water_minus_pre_sar_water,derived,descending,105,-14.0,5,5548469,99.98715125941085,713,89332,8.933200000000001,

@@ -1,0 +1,5 @@
+﻿Metric,W9 (Optical Only),W10 (Fused),Improvement
+Total detected flood area,21.7871 km²,24.5197 km²,+2.7326 km²
+Cloud-covered area analyzed,0.0000 km²,2.7326 km²,SAR supplements optical cloud gaps
+False positives (pre-correction),Not explicitly corrected,"271,173 raw SAR water pixels before cleanup",4.3372 km² removed by morphology / component filtering
+Confidence levels,3-zone / optical-only confidence,4-class ARIA v7.0 confidence map,Finer granularity

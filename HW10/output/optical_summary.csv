@@ -1,0 +1,4 @@
+﻿period,item_id,datetime,scene_cloud_cover_percent,aoi_cloud_percent,aoi_clear_percent,ndwi_candidate_water_pixels,ndwi_candidate_water_area_km2,cloud_excluded_water_pixels,cloud_excluded_water_area_km2,water_pixels_removed_by_cloud,water_area_removed_by_cloud_km2
+pre_event,S2B_MSIL2A_20251016T022559_R046_T51QUG_20251016T042804,2025-10-16T02:25:59.024000Z,2.543064,8.902465264249757,91.09753473575024,268773.0,26.8773,248259,24.8259,20514.0,2.0514
+post_event,S2C_MSIL2A_20251130T023051_R046_T51QUG_20251130T052811,2025-11-30T02:30:51.025000Z,44.908321,14.386408663475086,85.61359133652492,226472.0,22.6472,217871,21.787100000000002,8601.0,0.8601000000000001
+optical_change,post_water_mask_minus_pre_water_mask,derived,,14.386408663475086,85.61359133652492,,,25110,2.511,,
