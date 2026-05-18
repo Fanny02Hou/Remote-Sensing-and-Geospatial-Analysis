@@ -1,0 +1,10 @@
+﻿metric,value
+TP_pixels,1780.0
+FN_pixels,1140.0
+FP_pixels,252155.0
+TN_pixels,1338805.0
+Recall_detection_rate,0.6095890410958904
+Precision_confirmation_rate,0.007009667828381278
+IoU_Jaccard_index,0.006978339704008625
+SWCB_landslide_area_ha_rasterized,131.84
+RF_bare_landslide_area_ha,10157.4

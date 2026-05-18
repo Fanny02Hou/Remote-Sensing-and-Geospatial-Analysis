@@ -1,0 +1,6 @@
+﻿Metric,Value,Meaning
+Recall,0.6095890410958904,SWCB 官方崩塌地中，被 RF Bare/Landslide 成功偵測到的比例
+Precision,0.007009667828381278,RF 判為 Bare/Landslide 的像素中，實際與 SWCB 崩塌地重疊的比例
+IoU,0.006978339704008625,RF Bare/Landslide 與 SWCB 崩塌地之交集除以聯集
+SWCB rasterized area (ha),131.84,SWCB 官方崩塌地 rasterize 後面積
+RF Bare/Landslide area (ha),10157.4,RF 分類為 Bare/Landslide 的面積

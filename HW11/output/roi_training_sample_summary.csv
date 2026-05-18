@@ -1,0 +1,6 @@
+﻿class_id,class_name,class_name_zh,roi_pixels_before_nan_filter,valid_training_pixels,nan_removed_pixels
+0,Water,水體,23672,23668,4
+1,Forest,森林,2912,2548,364
+2,Cropland,農地,957,957,0
+3,Bare/Landslide,裸地/崩塌,2797,2751,46
+4,Built-up,建物,300,300,0

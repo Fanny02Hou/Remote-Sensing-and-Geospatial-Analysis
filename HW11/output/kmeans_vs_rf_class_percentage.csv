@@ -1,0 +1,6 @@
+﻿class_id,class_name,class_name_zh,kmeans_pixels,kmeans_percentage,rf_pixels,rf_percentage,difference_percentage_rf_minus_kmeans
+0,Water,水體,584904,36.7,559023,35.07,-1.62
+1,Forest,森林,443506,27.83,698124,43.8,15.97
+2,Cropland,農地,436939,27.41,78244,4.91,-22.5
+3,Bare/Landslide,裸地/崩塌,108189,6.79,253935,15.93,9.14
+4,Built-up,建物,20342,1.28,4554,0.29,-0.99

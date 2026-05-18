@@ -1,0 +1,20 @@
+﻿metric,expected_value,found_exact,found_rounded_or_short,status
+Overall Accuracy,0.9770,True,False,OK
+Kappa,0.9378,True,True,OK
+Test Accuracy,0.9770,True,False,OK
+OOB Accuracy,0.9756,False,False,CHECK
+SWCB Recall,0.6096,True,True,OK
+SWCB Precision,0.0070,True,True,OK
+SWCB IoU,0.0070,True,True,OK
+SWCB landslide area ha,131.84,True,True,OK
+RF Bare/Landslide area ha,10157.40,True,True,OK
+Water area ha,22360.92,False,False,CHECK
+Water percentage,35.07,True,False,OK
+Forest area ha,27924.96,False,False,CHECK
+Forest percentage,43.80,True,True,OK
+Cropland area ha,3129.76,False,False,CHECK
+Cropland percentage,4.91,True,True,OK
+Bare/Landslide area ha,10157.40,True,True,OK
+Bare/Landslide percentage,15.93,True,True,OK
+Built-up area ha,182.16,False,False,CHECK
+Built-up percentage,0.29,True,False,OK

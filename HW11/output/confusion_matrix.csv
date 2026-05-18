@@ -1,0 +1,6 @@
+﻿,Pred_Water,Pred_Forest,Pred_Cropland,Pred_Bare/Landslide,Pred_Built-up
+True_Water,4734,0,0,0,0
+True_Forest,0,490,5,14,1
+True_Cropland,0,3,153,35,0
+True_Bare/Landslide,1,9,27,508,5
+True_Built-up,0,0,12,27,21
