@@ -1,0 +1,14 @@
+﻿frame_id,start_month,end_month,start_date,end_date,image_count,event_label,frame_path
+1,2020-01,2020-06,2020-01-01,2020-06-28,27,,c:\Users\97000\CascadeProjects\Remote-Sensing-and-Geospatial-Analysis\HW12\output\bonus2\frames\frame_01_2020-01_2020-06.png
+2,2020-07,2020-12,2020-07-01,2020-12-28,24,,c:\Users\97000\CascadeProjects\Remote-Sensing-and-Geospatial-Analysis\HW12\output\bonus2\frames\frame_02_2020-07_2020-12.png
+3,2021-01,2021-06,2021-01-01,2021-06-28,29,,c:\Users\97000\CascadeProjects\Remote-Sensing-and-Geospatial-Analysis\HW12\output\bonus2\frames\frame_03_2021-01_2021-06.png
+4,2021-07,2021-12,2021-07-01,2021-12-28,34,,c:\Users\97000\CascadeProjects\Remote-Sensing-and-Geospatial-Analysis\HW12\output\bonus2\frames\frame_04_2021-07_2021-12.png
+5,2022-01,2022-06,2022-01-01,2022-06-28,10,,c:\Users\97000\CascadeProjects\Remote-Sensing-and-Geospatial-Analysis\HW12\output\bonus2\frames\frame_05_2022-01_2022-06.png
+6,2022-07,2022-12,2022-07-01,2022-12-28,26,,c:\Users\97000\CascadeProjects\Remote-Sensing-and-Geospatial-Analysis\HW12\output\bonus2\frames\frame_06_2022-07_2022-12.png
+7,2023-01,2023-06,2023-01-01,2023-06-28,15,,c:\Users\97000\CascadeProjects\Remote-Sensing-and-Geospatial-Analysis\HW12\output\bonus2\frames\frame_07_2023-01_2023-06.png
+8,2023-07,2023-12,2023-07-01,2023-12-28,20,,c:\Users\97000\CascadeProjects\Remote-Sensing-and-Geospatial-Analysis\HW12\output\bonus2\frames\frame_08_2023-07_2023-12.png
+9,2024-01,2024-03,2024-01-01,2024-03-28,12,,c:\Users\97000\CascadeProjects\Remote-Sensing-and-Geospatial-Analysis\HW12\output\bonus2\frames\frame_09_2024-01_2024-03.png
+10,2024-04,2024-09,2024-04-01,2024-09-28,28,★ 2024 Earthquake,c:\Users\97000\CascadeProjects\Remote-Sensing-and-Geospatial-Analysis\HW12\output\bonus2\frames\frame_10_2024-04_2024-09.png
+11,2024-10,2025-03,2024-10-01,2025-03-28,11,,c:\Users\97000\CascadeProjects\Remote-Sensing-and-Geospatial-Analysis\HW12\output\bonus2\frames\frame_11_2024-10_2025-03.png
+12,2025-04,2025-09,2025-04-01,2025-09-28,28,,c:\Users\97000\CascadeProjects\Remote-Sensing-and-Geospatial-Analysis\HW12\output\bonus2\frames\frame_12_2025-04_2025-09.png
+13,2025-10,2026-03,2025-10-01,2026-03-28,22,★ Post-Dam,c:\Users\97000\CascadeProjects\Remote-Sensing-and-Geospatial-Analysis\HW12\output\bonus2\frames\frame_13_2025-10_2026-03.png

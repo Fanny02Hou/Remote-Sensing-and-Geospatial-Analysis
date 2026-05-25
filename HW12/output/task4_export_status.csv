@@ -1,0 +1,4 @@
+﻿product,expected_file,description,state,task_id,error_message
+Post-EQ NDVI composite,taroko_post_eq_ndvi_2024.tif,taroko_post_eq_ndvi_2024,COMPLETED,OYHMAEZP226YPIHEOHGOVDC4,
+Earthquake ΔNDVI map,taroko_delta_ndvi_eq_2024.tif,taroko_delta_ndvi_eq_2024,COMPLETED,24L6HTBOQ2NJSA4ZWMJDVXWA,
+Total ΔNDVI map,taroko_delta_ndvi_total_2026.tif,taroko_delta_ndvi_total_2026,COMPLETED,SNKWAI6V4P34PWX2MP34QHBJ,

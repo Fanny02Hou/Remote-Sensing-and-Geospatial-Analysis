@@ -1,0 +1,4 @@
+﻿phase,threshold,damage_area_m2,damage_area_ha,damage_area_km2
+Earthquake damage: Post-EQ − Pre-EQ,-0.15,77401453.33253798,7740.145333253798,77.40145333253798
+Dam-related change: Post-Dam − Post-EQ,-0.15,62576772.8102509,6257.67728102509,62.5767728102509
+Total accumulated change: Post-Dam − Pre-EQ,-0.15,68390396.20784919,6839.039620784919,68.3903962078492

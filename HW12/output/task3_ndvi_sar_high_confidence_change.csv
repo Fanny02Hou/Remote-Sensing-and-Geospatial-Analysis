@@ -1,0 +1,4 @@
+﻿condition,definition,threshold,area_m2,area_ha,area_km2
+NDVI damage,delta_NDVI_eq < -0.15,-0.15,,,
+SAR change,abs(delta_VV) > 2.0 dB,2.0,,,
+High-confidence change,delta_NDVI_eq < -0.15 AND abs(delta_VV) > 2.0 dB,,5373748.517795248,537.3748517795248,5.3737485177952475

@@ -1,0 +1,4 @@
+﻿product,description,file_name,drive_folder,scale_m,crs
+post_eq_ndvi,taroko_post_eq_ndvi_2024,taroko_post_eq_ndvi_2024.tif,GEE_Exports,10,EPSG:32651
+delta_ndvi_eq,taroko_delta_ndvi_eq_2024,taroko_delta_ndvi_eq_2024.tif,GEE_Exports,10,EPSG:32651
+delta_ndvi_total,taroko_delta_ndvi_total_2026,taroko_delta_ndvi_total_2026.tif,GEE_Exports,10,EPSG:32651
