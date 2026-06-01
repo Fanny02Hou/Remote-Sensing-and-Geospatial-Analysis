@@ -1,0 +1,5 @@
+﻿class_value,class,description,pixel_count,area_ha,area_km2
+1.0,Lost ponds,Early water → Recent land,4285.1882352941175,385.6669411764706,3.8566694117647056
+2.0,New water,Early land → Recent water,624.2470588235294,56.18223529411765,0.5618223529411766
+3.0,Stable water,Early water → Recent water,49734.21960784316,4476.079764705884,44.760797647058844
+,Net change,New water - Lost ponds,-3660.9411764705883,-329.4847058823529,-3.294847058823529

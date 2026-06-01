@@ -1,0 +1,4 @@
+﻿sensor,resolution_m,damage_definition,damage_area_km2,relative_to_landsat_pct
+Landsat,30.0,ΔNDVI < -0.15,70.06762715068406,100.0
+Sentinel-2,10.0,ΔNDVI < -0.15,78.518587447212,112.06114812244705
+Difference: S2 - Landsat,,ΔNDVI < -0.15,8.450960296527938,12.061148122447062
