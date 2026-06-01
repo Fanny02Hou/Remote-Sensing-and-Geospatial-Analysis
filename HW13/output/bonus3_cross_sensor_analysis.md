@@ -5,7 +5,7 @@
 
 ### 1. Cross-sensor annual NDVI comparison
 
-2018–2026 年的跨感測器比較顯示，Sentinel-2 年均 NDVI 系統性低於 Landsat。平均偏差為 **-0.0583 NDVI**，表示 Sentinel-2 的年度平均 NDVI 約比 Landsat 低 0.058。Scatter plot 的 R² 為 **0.168**，代表兩個感測器在年度平均 NDVI 上的線性一致性不高。
+2018–2026 年的跨感測器比較顯示，Sentinel-2 年均 NDVI 系統性低於 Landsat。平均偏差為 **-0.0608 NDVI**，表示 Sentinel-2 的年度平均 NDVI 約比 Landsat 低 0.058。Scatter plot 的 R² 為 **0.039**，代表兩個感測器在年度平均 NDVI 上的線性一致性不高。
 
 這個結果可能與山區複雜地形、陰影、雲遮罩、觀測日期差異、空間解析度差異與混合像素效應有關。Landsat 30 m 像素較容易混合森林、裸地、道路、河道與陰影；Sentinel-2 10 m 解析度較高，能保留更多局部異質性，因此兩者的年度平均值不一定會完全一致。
 

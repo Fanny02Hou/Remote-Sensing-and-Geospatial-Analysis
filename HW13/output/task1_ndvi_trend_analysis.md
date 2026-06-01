@@ -1,17 +1,17 @@
 
 ## Task 1 — Landsat Harmonization + 26-Year NDVI Time Series Analysis
 
-本次分析共使用 **882 張 Landsat 影像**，整合 Landsat 5、7、8、9 四代感測器，建立 2000–2026 年太魯閣／秀林研究區的年度 NDVI 時間序列。分析前先進行波段調和，將不同 Landsat 任務的波段統一為 `Blue, Green, Red, NIR, SWIR1, SWIR2`，並套用 Collection 2 Level 2 的 surface reflectance scale factor 與 QA_PIXEL 雲／雲影遮罩。
+本次分析共使用 **884 張 Landsat 影像**，整合 Landsat 5、7、8、9 四代感測器，建立 2000–2026 年太魯閣／秀林研究區的年度 NDVI 時間序列。分析前先進行波段調和，將不同 Landsat 任務的波段統一為 `Blue, Green, Red, NIR, SWIR1, SWIR2`，並套用 Collection 2 Level 2 的 surface reflectance scale factor 與 QA_PIXEL 雲／雲影遮罩。
 
 ### 1. Long-term trend：長期趨勢
 
-從 26 年 NDVI 時序圖可以看出，研究區整體呈現 **長期變綠（greening）** 的趨勢。線性趨勢斜率為 **+0.00279 NDVI/year**，代表平均每年 NDVI 約增加 0.00279。若以 2000–2026 年整段期間估算，總變化量約為 **+0.0725 NDVI**。
+從 26 年 NDVI 時序圖可以看出，研究區整體呈現 **長期變綠（greening）** 的趨勢。線性趨勢斜率為 **+0.00299 NDVI/year**，代表平均每年 NDVI 約增加 0.00299。若以 2000–2026 年整段期間估算，總變化量約為 **+0.0776 NDVI**。
 
 這表示太魯閣研究區雖然受到颱風、地震與坡地崩塌等自然擾動影響，但在長時間尺度下，整體植被狀態仍呈現緩慢改善。可能原因包括森林自然演替、植被再生、部分受損區域逐漸恢復，以及大面積未受損森林區對整體平均值的穩定作用。
 
 ### 2. Anomalous years：異常年份
 
-在年度平均 NDVI 中，最低值出現在 **2007 年**，平均 NDVI 約為 **0.4942**；最高值出現在 **2022 年**，平均 NDVI 約為 **0.5898**。整體平均 NDVI 約為 **0.5346**。
+在年度平均 NDVI 中，最低值出現在 **2007 年**，平均 NDVI 約為 **0.4942**；最高值出現在 **2026 年**，平均 NDVI 約為 **0.6065**。整體平均 NDVI 約為 **0.5355**。
 
 2009 年莫拉克颱風對台灣山區造成重大坡地災害，但在本研究區年度平均 NDVI 中，2009 年 NDVI 約為 **0.5141**，並未出現非常劇烈的整體下降。這可能是因為本分析使用年度 median composite 和整個 AOI 的平均值，因此局部崩塌訊號可能被大範圍穩定森林區所稀釋。
 
